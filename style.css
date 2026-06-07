@@ -1,0 +1,145 @@
+body {
+    background-color: #FDF5E6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4A2C2C;
+}
+
+.header {
+    background-color: #8B4513;
+    color: #FFF8DC;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.menu {
+    text-align: center;
+    background-color: #D2691E;
+    padding: 15px 0;
+}
+
+.button {
+    background-color: #A0522D;
+    color: white;
+    padding: 12px 25px;
+    margin: 5px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #6B3E1B;
+    transform: scale(1.05);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    color: #8B4513;
+    border-left: 5px solid #D2691E;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #A0522D;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #FFF8F0;
+}
+
+th {
+    background-color: #D2691E;
+    color: white;
+    padding: 12px;
+    border: 1px solid #DEB887;
+}
+
+td {
+    border: 1px solid #DEB887;
+    padding: 10px;
+}
+
+ul, ol {
+    background-color: #FFF8F0;
+    padding: 20px 20px 20px 40px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.gallery-grid {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.gallery-item {
+    background-color: #FFF8F0;
+    border-radius: 15px;
+    padding: 15px;
+    display: inline-block;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.form-container {
+    background-color: #FFF8F0;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #DEB887;
+    border-radius: 10px;
+}
+
+.video-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+iframe {
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+.footer {
+    background-color: #8B4513;
+    color: #FFF8DC;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
